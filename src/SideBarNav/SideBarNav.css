@@ -1,0 +1,14 @@
+#nav_bar{
+    background-color: lightgray;
+    text-align: left;
+    position: absolute;
+    left: 0em;
+    bottom: 0;
+    top: 0;
+    width: 15em;
+}
+
+.nav_item{
+    padding: 2em;
+    font-weight: bolder;
+}

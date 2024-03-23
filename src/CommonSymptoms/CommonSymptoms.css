@@ -1,0 +1,27 @@
+.card {
+    top: 3em;
+    left: 20em;
+    height: 20em;
+}
+
+.badge_icons {
+    height: 5em;
+    width: 10em;
+    text-align: center;
+    padding-top: 2em;
+    margin-top: 0.5em;
+    margin-right: 1em;
+    margin-left: 0.5em;
+}
+
+.cmn_symptom_list {
+    background-color: gray;
+}
+
+.cmn_symptom_top_list_item {
+    color: red;
+}
+
+.cmn_symptom_top_list_item_bg {
+    background-color: lightgray;
+}
