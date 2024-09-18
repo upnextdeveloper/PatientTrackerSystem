@@ -1,13 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 import SideBarNav from './SideBarNav/SideBarNav';
+import { Container } from 'react-bootstrap';
 
 function App() {
   return (
-    <div className="App">
+    <Container>
+      <div className="App">
       <h1>Patient Tracker</h1>
       <SideBarNav/>
     </div>
+    </Container>
   );
 }
 

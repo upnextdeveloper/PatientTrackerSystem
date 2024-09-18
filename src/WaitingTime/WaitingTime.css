@@ -1,0 +1,15 @@
+.meter {
+    width: 15rem;
+    height: 15rem;
+    margin-right: 5em;
+}
+
+.meter_column {
+    margin-right: 2em;
+    padding-bottom: 5em;
+}
+
+.meter_row {
+    margin-left: -15em;
+    margin-right: 15em;
+}

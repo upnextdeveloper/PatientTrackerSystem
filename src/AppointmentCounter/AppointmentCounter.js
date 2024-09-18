@@ -50,7 +50,7 @@ function AppointmentCounter() {
         setAppointmentsCancelled(cancelled.length);
     }
 
-    console.log(appointments);
+   // console.log(appointments);
 
     return (
         <div>

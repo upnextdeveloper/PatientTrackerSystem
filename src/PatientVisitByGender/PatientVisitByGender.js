@@ -7,7 +7,6 @@ function PatientVisitByGender() {
     const url = 'http://localhost:8080/api/appointment';
     const [loading, setLoading] = useState(true);
     const [appointments, setAppointments] = useState([]);
-    var CanvasJS = CanvasJSReact.CanvasJS;
     var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
     useEffect(() => {
