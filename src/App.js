@@ -6,10 +6,10 @@ import { Container } from 'react-bootstrap';
 function App() {
   return (
     <Container>
-      <div className="App">
-      <h1>Patient Tracker</h1>
-      <SideBarNav/>
-    </div>
+      <h1 style={{textAlign:'center'}}>Patient Tracker</h1>
+      <div className="App" style={{paddingLeft:'10em'}}>
+        <SideBarNav />
+      </div>
     </Container>
   );
 }
