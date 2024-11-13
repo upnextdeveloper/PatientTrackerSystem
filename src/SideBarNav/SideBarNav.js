@@ -16,10 +16,10 @@ function SideBarNav() {
     return (
         <Router>
             <div>
-                <Button variant="secondary" className="d-lg-none" onClick={openCanvas}>
+                <Button variant="secondary" className="d-sm-none" onClick={openCanvas}>
                     =
                 </Button>
-                <Offcanvas show={show} onHide={closeCanvas} responsive="md">
+                <Offcanvas show={show} onHide={closeCanvas} responsive="sm">
                     <Offcanvas.Header closeButton>
                         <hr />
                         <Offcanvas.Title>Navigation</Offcanvas.Title>
